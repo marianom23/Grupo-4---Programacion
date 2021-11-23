@@ -5,36 +5,45 @@ https://docs.google.com/document/d/15B_MuIOiNRUu9UKD1AWLnditwDpMvPXMxFJxtVxqW1w/
 
 
 # Compu Mundo Hiper Mega Red
+# REPOSITORIO
+https://github.com/TomasHurtado/grupo_9_MPC
 # COMANDOS PARA GENERAR LOS MODELOS DE RIKOLINOS
 
-Grupo repositorio: https://github.com/TomasHurtado/grupo_9_MPC
 
-![Modelo CompuMundo HiperMegRed](https://user-images.githubusercontent.com/81484301/141873621-82811262-3b6e-4050-96bf-4dc4b4bd3d68.jpeg)
 # PASOS PARA ABRIR EL PROYECTO
 1-Descargar el proyecto.
+
 2-Abrir algún gestor de base de datos (en mi caso WorkBench) y crear una base de datos (por ejemplo "seqcompumundo"), elegiendo como Charset: uft8, y como Collation utf8_general_ci
 ![143099039-2af75637-03b7-4976-bbf2-6ee885ddb59d](https://user-images.githubusercontent.com/81484301/143133631-8bb6180b-fcbd-42f7-9aa6-a72bd15b14da.png)
+
 3-Abrir la carpeta de todo el código en Visual Studio Code
+
 4-En la carpeta raíz encontraremos un archivo llamado ".env" que contiene la información de la base de datos en la que se crearán nuestas tablas. El archivo contiene la siguiente configuración:
+
 ![143120828-78a6c842-295e-44c6-9e8c-3cf986f5ad2c](https://user-images.githubusercontent.com/81484301/143133672-2947b624-03d1-4736-8628-ca257432beee.png)
 SE DEBERÁ CAMBIAR ESTA CONFIGURACIÓN SEGÚN LA BASE DE DATOS CREADA PARA CADA CASO.
 
 5-Ingresar al archivo src/database/config/config.js, y en este modificarlo según la configuración de la base de datos, por ejemplo:
 ![143131226-26184922-a5ce-4aca-9dab-1253d84a7ad6](https://user-images.githubusercontent.com/81484301/143133718-2fa25ffe-2b72-465c-8994-7b7ee933069e.png)
+
 6-Abrir un nuevo terminal, posicionarse en la carpeta "src" y ejecutar el comando: "npm install".
 ![143117948-2c5e169a-459e-4ac6-9db7-f5f7a71d0df2](https://user-images.githubusercontent.com/81484301/143133775-32a79407-e362-4bed-88a2-3c9e3abd6226.png)
+
 7-Instaladas las dependendecias, posicionar la terminal en la carpeta "database" y ejecutar el comando: sequelize db:migrate
 ![143131803-4d790382-9137-4d4e-a1d8-47056c95d297](https://user-images.githubusercontent.com/81484301/143133791-d1f8e121-31e7-4acd-accc-ba586ee55547.png)
+
 8-Verificar en el gestor de base de datos la creación de las tablas.
 ![143132080-c0663b6d-fb6d-4f4f-9c7f-b223a0484227](https://user-images.githubusercontent.com/81484301/143133824-9f5d2a07-24f8-44a6-9c41-8a5d44a0a838.png)
 
+Diagrama UML realizado en WorkBench:
+![Modelo CompuMundo HiperMegRed](https://user-images.githubusercontent.com/81484301/141873621-82811262-3b6e-4050-96bf-4dc4b4bd3d68.jpeg)
 # -------------------------------------------------------------------------------------------------------------------------------------------
 
 # Rikolinos
+# REPOSITORIOS
+https://github.com/Marianocr98/Proyecto-Integrador-Grupo-10-LosRikolinos
+
 # COMANDOS PARA GENERAR LOS MODELOS DE RIKOLINOS
-
-Grupo repositorio: https://github.com/Marianocr98/Proyecto-Integrador-Grupo-10-LosRikolinos
-
 
 npx sequelize model:generate --name Menu --attributes nombre:string,descripcion:string
 
