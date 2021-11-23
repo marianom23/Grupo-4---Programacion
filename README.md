@@ -95,19 +95,19 @@ DB_DIALECT=mysql
 
 ![143052449-32cba3be-2b75-4a84-8985-98a50e6a4323](https://user-images.githubusercontent.com/81484301/143082750-951b7584-bf3f-4947-b411-780f5b2befbb.png)
 
-Entrar a la carpeta: "Node Rikolino/src/database/config/config.js" y cambiar las configuraciones en base a tus configuraciones.
+# 7- Entrar a la carpeta: "Node Rikolino/src/database/config/config.js" y cambiar las configuraciones en base a tus configuraciones.
 ![143048636-d8d49e84-b5d3-4ce4-baf3-6225dc8d9e26](https://user-images.githubusercontent.com/81484301/143082771-84874455-f185-4cc3-8376-eeaefeb770ad.png)
 
-Abrir la terminal y parado en la carpeta "src" agregar el comando: "npm install"
+# 8- Abrir la terminal y parado en la carpeta "src" agregar el comando: "npm install"
 ![143048950-7053e4c5-afac-4815-8244-f3fbd0a827df](https://user-images.githubusercontent.com/81484301/143082797-db0c012e-b98e-4df3-9e37-877d0e7b8749.png)
 
-Una vez instaladas las dependencias agregar dentro de database el comando "npx sequelize db:migrate"
+# 9- Una vez instaladas las dependencias agregar dentro de database el comando "npx sequelize db:migrate"
 ![143049093-e4e053e2-2ea5-4e4f-b50b-8fce5af436b1](https://user-images.githubusercontent.com/81484301/143082819-e9f85467-9c38-4cb9-b261-206fde30fc09.png)
 
-Revisar en el gestor de base de datos si se crearon las tablas correspondientes:
+# 10 -Revisar en el gestor de base de datos si se crearon las tablas correspondientes:
 ![143049246-10807784-f617-4eec-8faa-3152f1bf9bc6](https://user-images.githubusercontent.com/81484301/143083219-72d73868-a43a-4b11-80bf-53c806dc5cfc.png)
 
-Diagrama UML realizado en WorkBench:
+# Diagrama UML realizado en WorkBench:
 ![143049321-332ee0dc-b055-449f-a5f7-8a51704dc5f7](https://user-images.githubusercontent.com/81484301/143083248-b4dfffd5-83d8-4bcd-ac8c-2a92b7a173a9.jpg)
 
 
