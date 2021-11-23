@@ -9,7 +9,7 @@ https://docs.google.com/document/d/15B_MuIOiNRUu9UKD1AWLnditwDpMvPXMxFJxtVxqW1w/
 
 repositorio: https://github.com/TomasHurtado/grupo_9_MPC
 
-# ----------------------------------------------------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Rikolinos
 ![Modelo Rikolino](https://user-images.githubusercontent.com/81484301/141873629-32f77fef-9ac4-4676-bc5b-9f0c9b6f8b07.jpeg)
