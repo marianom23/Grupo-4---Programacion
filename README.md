@@ -5,6 +5,8 @@ https://docs.google.com/document/d/15B_MuIOiNRUu9UKD1AWLnditwDpMvPXMxFJxtVxqW1w/
 
 
 # Compu Mundo Hiper Mega Red
+# LINK AL PROYECTO DE HIPER MEGA RED HECHO POR EL GRUPO
+https://github.com/FrancoBaldasso/seqcompumundo
 # REPOSITORIO:
 https://github.com/TomasHurtado/grupo_9_MPC
 # COMANDOS PARA GENERAR LOS MODELOS DE COMPU MUNDO HIPER MEGA RED
