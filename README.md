@@ -9,6 +9,29 @@ https://docs.google.com/document/d/15B_MuIOiNRUu9UKD1AWLnditwDpMvPXMxFJxtVxqW1w/
 https://github.com/TomasHurtado/grupo_9_MPC
 # COMANDOS PARA GENERAR LOS MODELOS DE COMPU MUNDO HIPER MEGA RED
 
+npx sequelize model:generate --name Marca --attributes nombre:string
+
+npx sequelize model:generate --name Categoria --attributes nombre:string
+
+npx sequelize model:generate --name Visibilidad --attributes nombre:string
+
+npx sequelize model:generate --name Color --attributes nombre:string
+
+npx sequelize model:generate --name Usuario --attributes nombre:string,apellido:string,email:string,contraseña:string
+
+npx sequelize model:generate --name Envios --attributes calle:string,numero:integer,departamento:string,codigo_postal:integer,precio:float
+
+npx sequelize model:generate --name Domicilio --attributes calle:string,numero:integer,departamento:string,codigo_postal:integer,usuarioId:integer
+
+npx sequelize model:generate --name Factura --attributes fecha:date,total:float,usuarioId:integer,enviosId:integer
+
+npx sequelize model:generate --name Producto--attributes nombre:string,precio:decimal,stock:integer,stock_min:integer,stock_max:integer,descripcion:string,marcaId:integer,categoriaId:integer,colorId:integer,visibilidadId:integer,subcategoriaId:integer
+
+npx sequelize model:generate --name Subcategoria --attributes nombre:string,categoriaId:integer
+
+npx sequelize model:generate --name Detalle_factura --attributes cantidad:integer,subtotal:float,productoId:integer,facturaId:integer
+
+npx sequelize model:generate --name Imagenes --attributes nombre:string,productoId:integer
 
 # PASOS PARA ABRIR EL PROYECTO
 
