@@ -5,7 +5,7 @@ https://docs.google.com/document/d/15B_MuIOiNRUu9UKD1AWLnditwDpMvPXMxFJxtVxqW1w/
 
 
 # Compu Mundo Hiper Mega Red
-# REPOSITORIO
+# REPOSITORIO:
 https://github.com/TomasHurtado/grupo_9_MPC
 # COMANDOS PARA GENERAR LOS MODELOS DE COMPU MUNDO HIPER MEGA RED
 
@@ -42,7 +42,7 @@ SE DEBERÁ CAMBIAR ESTA CONFIGURACIÓN SEGÚN LA BASE DE DATOS CREADA PARA CADA 
 # -------------------------------------------------------------------------------------------------------------------------------------------
 
 # Rikolinos
-# REPOSITORIOS
+# REPOSITORIO:
 https://github.com/Marianocr98/Proyecto-Integrador-Grupo-10-LosRikolinos
 
 # COMANDOS PARA GENERAR LOS MODELOS DE RIKOLINOS
