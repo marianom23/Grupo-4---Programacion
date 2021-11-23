@@ -1,4 +1,4 @@
-# Grupo 4: Franco Baldasso, Martin Ramirez, Mariano Martin, José Pasini
+# Grupo 4: Franco Baldasso, Martín Ramírez, Mariano Martín, José Pasini
 
 # Drive
 https://docs.google.com/document/d/15B_MuIOiNRUu9UKD1AWLnditwDpMvPXMxFJxtVxqW1w/edit
