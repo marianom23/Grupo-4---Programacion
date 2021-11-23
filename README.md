@@ -3,11 +3,12 @@
 # Drive
 https://docs.google.com/document/d/15B_MuIOiNRUu9UKD1AWLnditwDpMvPXMxFJxtVxqW1w/edit
 
+# NOTA IMPORTANTE EL PROYECTO DE RIKOLINO ESTA EN ESTE GITHUB, EL DE COMPUMUNDO EN EL LINK INFERIOR
 
 # Compu Mundo Hiper Mega Red
 # LINK AL PROYECTO DE HIPER MEGA RED HECHO POR EL GRUPO
 https://github.com/FrancoBaldasso/seqcompumundo
-# REPOSITORIO:
+# REPOSITORIO DADO POR EL PROFESOR:
 https://github.com/TomasHurtado/grupo_9_MPC
 # COMANDOS PARA GENERAR LOS MODELOS DE COMPU MUNDO HIPER MEGA RED
 
@@ -67,7 +68,7 @@ SE DEBERÁ CAMBIAR ESTA CONFIGURACIÓN SEGÚN LA BASE DE DATOS CREADA PARA CADA 
 # -------------------------------------------------------------------------------------------------------------------------------------------
 
 # Rikolinos
-# REPOSITORIO:
+# REPOSITORIO DADO POR EL PROFESOR:
 https://github.com/Marianocr98/Proyecto-Integrador-Grupo-10-LosRikolinos
 
 # COMANDOS PARA GENERAR LOS MODELOS DE RIKOLINOS
