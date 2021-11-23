@@ -71,19 +71,20 @@ npx sequelize model:generate --name DetalleFactura --attributes cantidad:integer
 
 # PASOS PARA ABRIR EL PROYECTO
 
-1- Descargar el proyecto
-2- Abrir XAMPP y prender MySQL.
+# 1- Descargar el proyecto
+# 2- Abrir XAMPP y prender MySQL.
 ![143047961-e2402ab8-297d-40d0-abff-83a3f68fd248](https://user-images.githubusercontent.com/81484301/143082580-00976562-f9c0-42d4-9432-08bf1fcd87fd.png)
-3- Abrir algún gestor de base de datos (en mi caso SqlYOG) y crear una base de datos (en mi caso rikolino_bd_prueba)
+# 3- Abrir algún gestor de base de datos (en mi caso SqlYOG) y crear una base de datos (en mi caso rikolino_bd_prueba)
 ![143048132-e77afd14-f0f1-434c-a8e6-adcc8633691f](https://user-images.githubusercontent.com/81484301/143082608-db57728a-cb05-41ec-a098-c73aeb8c3f62.png)
-4- Abrir la carpeta de todo el código en Visual Studio Code
-5- En la carpeta raíz (src) crear el archivo ".sequelizerc" y agregar esto:
+# 4- Abrir la carpeta de todo el código en Visual Studio Code
+# 5- En la carpeta raíz (src) crear el archivo ".sequelizerc" y agregar esto:
 
 const path = require('path')
 
 module.exports = { config: path.resolve('./src/database/config', 'config.js'), 'models-path': path.resolve('./src/database/models'), 'seeders-path': path.resolve('./src/database/seeders'), 'migrations-path': path.resolve('./src/database/migrations'), }
 ![143048301-85bfdcc3-6dd3-4a78-8011-b2ea45ed1095](https://user-images.githubusercontent.com/81484301/143082693-b1449d27-d1ed-482a-81c5-c9a8341f8cd8.png)
-En la carpeta raíz agregar un archivo llamado ".env" y agregar esto:
+
+# 6- En la carpeta raíz agregar un archivo llamado ".env" y agregar esto o configurarlo segun su base de datos:
 
 DB_USERNAME=root
 DB_PASSWORD=
